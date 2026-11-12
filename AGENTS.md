@@ -1,6 +1,6 @@
 # Entry point for agents
 
-This repository contains only reusable Skills, workflow documentation and a license. It has no media, rendering application, installer, model or API credentials.
+This repository provides reusable Skills and workflow documentation under MIT, with three comparison GIFs for demonstration. The GIFs are excluded from MIT and are not production inputs; see assets/previews/NOTICE.md. It has no original videos, audio tracks, rendering application, installer, model or API credentials.
 
 1. Read README.md for scope and usage.
 2. Use skills.json to find the actual Skill paths.

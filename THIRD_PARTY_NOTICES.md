@@ -2,7 +2,9 @@
 
 The original Skills, workflow instructions and accompanying documentation in this repository are licensed under the root MIT LICENSE.
 
-No reference footage, GIFs, screenshots, music, character assets, font files, generated media, models or third-party software are distributed here. Naming a tool or a brand does not grant rights to it or imply an official relationship.
+Three comparison GIFs in `assets/previews/` are included solely as project output demonstrations. **Those GIFs are excluded from the MIT license.** They contain reference footage and third-party visual content; this repository does not grant reuse rights to that content. See [preview notice](assets/previews/NOTICE.md).
+
+No original video files, audio tracks, production inputs, character source assets, font files, models or third-party software are distributed here. Naming a tool or a brand does not grant rights to it or imply an official relationship.
 
 Users supply their own media and tools. External software, models and generation services retain their own terms. In particular, Remotion has a separate license; this workflow's MIT license does not relicense Remotion:
 
