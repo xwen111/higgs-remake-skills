@@ -1,0 +1,7 @@
+{
+  "format": "repository-local-skill-index-v1",
+  "skills": [
+    {"name":"social-video-rebuild", "path":"skills/social-video-rebuild", "purpose":"拆解参考、规划AIGC素材、代码重建、审片返工与交付"},
+    {"name":"social-video-design", "path":"skills/social-video-design", "purpose":"学习功能展示、信息层级、密度收放和动效交接，设计自己的短片"}
+  ]
+}
