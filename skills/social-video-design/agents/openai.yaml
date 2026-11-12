@@ -1,0 +1,4 @@
+interface:
+  display_name: "Social Video Design"
+  short_description: "学习高质量社媒短片的功能表达、信息层级、节奏与空间动效"
+  default_prompt: "请用 $social-video-design 分析我的产品功能与参考片，提出能用自己的素材制作的分镜方案。"
