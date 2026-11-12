@@ -95,7 +95,23 @@ Agent 需要能读取仓库文件，不能只看 README 摘要。不能直接访
 
 **拆参考 → 规划素材 → 生成 AIGC → 代码动效与合成 → 对比修改 → 确认交付。**
 
-[完整工作流](docs/workflow.md) · [可复制的操作话术](docs/prompts.md)
+[完整工作流](docs/workflow.md) · [14组可复制话术与协作示例](docs/prompts.md)
+
+## 安装后，Agent 可以按任务读取哪些详细指南？
+
+两个主 Skill 给出从接手到交付的执行步骤，配套文件再展开具体做法。复制整个 Skill 文件夹即可带走对应指南，不依赖这个仓库作者的本机工程。
+
+| 专项指南 | 解决什么问题 |
+|---|---|
+| [视觉语法](skills/social-video-design/references/visual-grammar.md) | 标题与控件布局、颜色职责、空间归属、透视和动画交接 |
+| [八类镜头构型](skills/social-video-design/references/shot-blueprints.md) | 窗口、分层、局部编辑、速度、光照、年代、参数和局部线框怎样规划 |
+| [参考拆解](skills/social-video-rebuild/references/reference-breakdown.md) | 抽帧密度、状态观察、布局测量、镜头记录与HTML查看页 |
+| [素材与时间](skills/social-video-rebuild/references/assets-and-time.md) | 干净背景、高清主体、状态一致性、提示词、裁切与独立时钟 |
+| [代码实现交接](skills/social-video-rebuild/references/remotion-implementation.md) | 时间驱动、工程职责、投影、层序、缓存与稳定渲染 |
+| [动效与故障排查](skills/social-video-rebuild/references/motion-and-review.md) | 贴片感、抠图边、阴影、漂移、闪帧和播放器假卡顿 |
+| [合并与交付](skills/social-video-rebuild/references/delivery-and-validation.md) | 确定版、混合fps、音轨、Alpha、验证证据和公开范围 |
+
+Agent 应按当前任务选读，而不是为改一行字加载全部指南。主文件也明确了对应的读取时机和交付格式。
 
 自然动作、运镜和复杂光照可在生成素材中准备；精确文字、参数、框线与控件由代码制作。实际工具由你和 Agent 选择，工作流没有绑定模型 API 或生成平台。
 
