@@ -1,0 +1,4 @@
+interface:
+  display_name: "Social Video Rebuild"
+  short_description: "拆解参考短片，规划 AIGC 素材，用代码重建动效并审片交付"
+  default_prompt: "请用 $social-video-rebuild 分析我的参考片和素材，先给出可制作的分工，再重建这个镜头。"
